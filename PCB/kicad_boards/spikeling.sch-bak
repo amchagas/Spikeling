@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT RV1
+L spikeling-rescue:R_POT-Device RV1
 U 1 1 5CEAF58E
 P 1650 1200
 F 0 "RV1" H 1580 1246 50  0000 R CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1650 1200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV2
+L spikeling-rescue:R_POT-Device RV2
 U 1 1 5CEAF60C
 P 1650 1650
 F 0 "RV2" H 1580 1696 50  0000 R CNN
@@ -36,7 +36,7 @@ F 3 "~" H 1650 1650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV3
+L spikeling-rescue:R_POT-Device RV3
 U 1 1 5CEAF638
 P 1650 2100
 F 0 "RV3" H 1580 2146 50  0000 R CNN
@@ -47,7 +47,7 @@ F 3 "~" H 1650 2100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV4
+L spikeling-rescue:R_POT-Device RV4
 U 1 1 5CEAF65E
 P 1650 2550
 F 0 "RV4" H 1580 2596 50  0000 R CNN
@@ -58,7 +58,7 @@ F 3 "~" H 1650 2550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED D2
+L spikeling-rescue:LED-Device D2
 U 1 1 5CEAF6DF
 P 2150 5550
 F 0 "D2" H 2141 5766 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "~" H 2150 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R1
+L spikeling-rescue:R-Device R1
 U 1 1 5CEAF75D
 P 1900 3900
 F 0 "R1" H 1970 3946 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 1900 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R4
+L spikeling-rescue:R-Device R4
 U 1 1 5CEAF7C1
 P 2150 7050
 F 0 "R4" H 2220 7096 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "~" H 2150 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L spikeling-rescue:R-Device R2
 U 1 1 5CEAF81B
 P 1650 5550
 F 0 "R2" H 1720 5596 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 1650 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Buzzer BZ1
+L spikeling-rescue:Buzzer-Device BZ1
 U 1 1 5CEAF8CF
 P 1600 3100
 F 0 "BZ1" H 1753 3129 50  0000 L CNN
@@ -113,29 +113,29 @@ F 3 "~" V 1575 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L spikeling-rescue:SW_Push-Switch SW1
 U 1 1 5CEAFDBF
 P 1600 7050
 F 0 "SW1" H 1600 7335 50  0000 C CNN
 F 1 "Button" H 1600 7244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1600 7250 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1600 7250 50  0001 C CNN
 F 3 "" H 1600 7250 50  0001 C CNN
 	1    1600 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Photo D1
+L spikeling-rescue:D_Photo-Device D1
 U 1 1 5CEAFFD3
 P 1850 3550
 F 0 "D1" H 1800 3845 50  0000 C CNN
 F 1 "D_Photo" H 1800 3754 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm_Clear" H 1800 3550 50  0001 C CNN
+F 2 "LED_SMD:LED_1806_4516Metric" H 1800 3550 50  0001 C CNN
 F 3 "~" H 1800 3550 50  0001 C CNN
 	1    1850 3550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J4
+L spikeling-rescue:Conn_Coaxial-Connector J4
 U 1 1 5CEB0420
 P 1750 4800
 F 0 "J4" H 1850 4684 50  0000 L CNN
@@ -146,7 +146,7 @@ F 3 " ~" H 1750 4800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J3
+L spikeling-rescue:Conn_Coaxial-Connector J3
 U 1 1 5CEB049E
 P 1750 5250
 F 0 "J3" H 1850 5134 50  0000 L CNN
@@ -167,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7050 1150 7050
 $Comp
-L power:GND #PWR02
+L spikeling-rescue:GND-power #PWR02
 U 1 1 5CEB3156
 P 3100 3000
 F 0 "#PWR02" H 3100 2750 50  0001 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 3950 5900 3950
 $Comp
-L power:GND #PWR022
+L spikeling-rescue:GND-power #PWR022
 U 1 1 5EBD6C21
 P 5800 2600
 F 0 "#PWR022" H 5800 2350 50  0001 C CNN
@@ -230,7 +230,7 @@ NoConn ~ 5900 3550
 NoConn ~ 5900 3650
 NoConn ~ 5900 3850
 $Comp
-L power:+5V #PWR04
+L spikeling-rescue:+5V-power #PWR04
 U 1 1 5EC8C52C
 P 1300 1800
 F 0 "#PWR04" H 1300 1650 50  0001 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 1300 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L spikeling-rescue:GND-power #PWR012
 U 1 1 5ECA6EC7
 P 1500 1050
 F 0 "#PWR012" H 1500 800 50  0001 C CNN
@@ -284,7 +284,7 @@ RV4
 Wire Wire Line
 	7050 3550 7250 3550
 $Comp
-L power:GND #PWR019
+L spikeling-rescue:GND-power #PWR019
 U 1 1 5ED3355E
 P 2500 7100
 F 0 "#PWR019" H 2500 6850 50  0001 C CNN
@@ -305,7 +305,7 @@ Wire Wire Line
 Text GLabel 7250 3150 2    50   Input ~ 0
 A_in
 $Comp
-L power:+5V #PWR023
+L spikeling-rescue:+5V-power #PWR023
 U 1 1 5ED4AD02
 P 7200 3750
 F 0 "#PWR023" H 7200 3600 50  0001 C CNN
@@ -330,7 +330,7 @@ D_out
 Wire Wire Line
 	3100 3000 3100 3200
 $Comp
-L power:+5V #PWR03
+L spikeling-rescue:+5V-power #PWR03
 U 1 1 5ED6B277
 P 1150 7050
 F 0 "#PWR03" H 1150 6900 50  0001 C CNN
@@ -349,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 2600 5900 2600
 $Comp
-L power:GND #PWR014
+L spikeling-rescue:GND-power #PWR014
 U 1 1 5ED8CE4B
 P 2150 4600
 F 0 "#PWR014" H 2150 4350 50  0001 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 2150 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR018
+L spikeling-rescue:GND-power #PWR018
 U 1 1 5ED8D2CE
 P 2350 6400
 F 0 "#PWR018" H 2350 6150 50  0001 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 2350 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR013
+L spikeling-rescue:GND-power #PWR013
 U 1 1 5ED92A8B
 P 2100 5050
 F 0 "#PWR013" H 2100 4800 50  0001 C CNN
@@ -388,7 +388,7 @@ A_out
 Text GLabel 5700 3350 0    50   Input ~ 0
 D_in1
 $Comp
-L power:GND #PWR015
+L spikeling-rescue:GND-power #PWR015
 U 1 1 5EDB3128
 P 2200 4000
 F 0 "#PWR015" H 2200 3750 50  0001 C CNN
@@ -399,7 +399,7 @@ F 3 "" H 2200 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR06
+L spikeling-rescue:GND-power #PWR06
 U 1 1 5EDB4E28
 P 1350 2400
 F 0 "#PWR06" H 1350 2150 50  0001 C CNN
@@ -410,7 +410,7 @@ F 3 "" H 1350 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L spikeling-rescue:GND-power #PWR05
 U 1 1 5EDB9366
 P 1350 1950
 F 0 "#PWR05" H 1350 1700 50  0001 C CNN
@@ -423,7 +423,7 @@ $EndComp
 Wire Wire Line
 	1350 1950 1650 1950
 $Comp
-L power:GND #PWR010
+L spikeling-rescue:GND-power #PWR010
 U 1 1 5EDB9D0A
 P 1450 1500
 F 0 "#PWR010" H 1450 1250 50  0001 C CNN
@@ -438,7 +438,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1050 1650 1050
 $Comp
-L power:+5V #PWR09
+L spikeling-rescue:+5V-power #PWR09
 U 1 1 5EDC15D0
 P 1400 2700
 F 0 "#PWR09" H 1400 2550 50  0001 C CNN
@@ -451,7 +451,7 @@ $EndComp
 Wire Wire Line
 	1400 2700 1650 2700
 $Comp
-L power:+5V #PWR08
+L spikeling-rescue:+5V-power #PWR08
 U 1 1 5EDC24BE
 P 1400 2250
 F 0 "#PWR08" H 1400 2100 50  0001 C CNN
@@ -466,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1800 1650 1800
 $Comp
-L power:+5V #PWR07
+L spikeling-rescue:+5V-power #PWR07
 U 1 1 5EDC8C56
 P 1400 1350
 F 0 "#PWR07" H 1400 1200 50  0001 C CNN
@@ -505,7 +505,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3050 5900 3050
 $Comp
-L power:GND #PWR021
+L spikeling-rescue:GND-power #PWR021
 U 1 1 5EE34D61
 P 5700 2950
 F 0 "#PWR021" H 5700 2700 50  0001 C CNN
@@ -519,7 +519,7 @@ Wire Wire Line
 	5900 2950 5700 2950
 NoConn ~ 5900 2850
 $Comp
-L power:GND #PWR011
+L spikeling-rescue:GND-power #PWR011
 U 1 1 5EE61F1A
 P 1450 3200
 F 0 "#PWR011" H 1450 2950 50  0001 C CNN
@@ -532,7 +532,7 @@ $EndComp
 Wire Wire Line
 	1450 3200 1500 3200
 $Comp
-L power:GND #PWR016
+L spikeling-rescue:GND-power #PWR016
 U 1 1 5EDDA56F
 P 2350 5550
 F 0 "#PWR016" H 2350 5300 50  0001 C CNN
@@ -545,7 +545,7 @@ $EndComp
 Wire Wire Line
 	2300 5550 2350 5550
 $Comp
-L Connector:Conn_Coaxial J2
+L spikeling-rescue:Conn_Coaxial-Connector J2
 U 1 1 5CEB03E0
 P 2000 6600
 F 0 "J2" H 2099 6484 50  0000 L CNN
@@ -556,7 +556,7 @@ F 3 " ~" H 2000 6600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J1
+L spikeling-rescue:Conn_Coaxial-Connector J1
 U 1 1 5CEB038C
 P 2000 6150
 F 0 "J1" H 2099 6034 50  0000 L CNN
@@ -569,7 +569,7 @@ $EndComp
 Wire Wire Line
 	2000 5950 2350 5950
 $Comp
-L power:GND #PWR017
+L spikeling-rescue:GND-power #PWR017
 U 1 1 5ED8D9EE
 P 2350 5950
 F 0 "#PWR017" H 2350 5700 50  0001 C CNN
@@ -589,7 +589,7 @@ Connection ~ 1850 7050
 Wire Wire Line
 	1850 7050 2000 7050
 $Comp
-L Connector:Conn_01x15_Female J7
+L spikeling-rescue:Conn_01x15_Female-Connector J7
 U 1 1 5EB7EDA9
 P 6100 3350
 F 0 "J7" H 6000 4200 50  0000 L CNN
@@ -606,7 +606,7 @@ Vin
 Wire Wire Line
 	7050 3950 7250 3950
 $Comp
-L power:GND #PWR024
+L spikeling-rescue:GND-power #PWR024
 U 1 1 5EC6E46F
 P 7250 3950
 F 0 "#PWR024" H 7250 3700 50  0001 C CNN
@@ -622,7 +622,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 1600 3400 1600
 $Comp
-L Device:R R3
+L spikeling-rescue:R-Device R3
 U 1 1 5CEAF7EB
 P 3650 1600
 F 0 "R3" H 3720 1646 50  0000 L CNN
@@ -633,7 +633,7 @@ F 3 "~" H 3650 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J5
+L spikeling-rescue:Conn_Coaxial-Connector J5
 U 1 1 5CEB045C
 P 4450 1550
 F 0 "J5" H 4549 1434 50  0000 L CNN
@@ -644,11 +644,11 @@ F 3 " ~" H 4450 1550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L pspice:CAP C1
+L spikeling-rescue:CAP-pspice C1
 U 1 1 5CEB0504
 P 3800 1300
 F 0 "C1" H 3978 1346 50  0000 L CNN
-F 1 "CAP" H 3978 1255 50  0000 L CNN
+F 1 "1nF" H 3978 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3800 1300 50  0001 C CNN
 F 3 "~" H 3800 1300 50  0001 C CNN
 	1    3800 1300
@@ -657,7 +657,7 @@ $EndComp
 Wire Wire Line
 	3800 1550 3800 1600
 $Comp
-L power:GND #PWR01
+L spikeling-rescue:GND-power #PWR01
 U 1 1 5CEB0D1B
 P 3800 900
 F 0 "#PWR01" H 3800 650 50  0001 C CNN
@@ -668,7 +668,7 @@ F 3 "" H 3800 900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x15_Female J8
+L spikeling-rescue:Conn_01x15_Female-Connector J8
 U 1 1 5EBB29DA
 P 6850 3350
 F 0 "J8" H 6500 4200 50  0000 C CNN
@@ -679,7 +679,7 @@ F 3 "~" H 6850 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L spikeling-rescue:GND-power #PWR020
 U 1 1 5ED98448
 P 4450 1250
 F 0 "#PWR020" H 4450 1000 50  0001 C CNN
@@ -705,11 +705,11 @@ Wire Wire Line
 Wire Wire Line
 	7050 2950 7250 2950
 $Comp
-L Connector:Barrel_Jack J6
+L spikeling-rescue:Barrel_Jack-Connector J6
 U 1 1 5EB6DB43
 P 3500 3300
 F 0 "J6" H 3270 3258 50  0000 R CNN
-F 1 "Barrel_Jack" H 3270 3349 50  0000 R CNN
+F 1 "Vin" H 3270 3349 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3550 3260 50  0001 C CNN
 F 3 "~" H 3550 3260 50  0001 C CNN
 	1    3500 3300
